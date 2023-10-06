@@ -66,3 +66,10 @@ p {
 .user-profile {
   text-align: end;
 }
+
+@media (max-width: 900px) {
+  .grid-header-2-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+}
