@@ -1,0 +1,68 @@
+:root {
+  --background-color: #b6cfc5;
+  --primary-color: #98b7ab;
+  --secondary-color: #f0b7a9;
+  --tertiary-color: #6a8a7e;
+  --dark-text: #333333;
+}
+body {
+  background-color: var(--background-color);
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+i {
+  padding: 10px;
+}
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.contact-info span {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.container {
+  background-color: #f1f1f1;
+  max-width: 90%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.grid {
+  display: grid;
+}
+.grid-header-2-columns {
+  grid-template-columns: 3fr 5fr;
+  grid-gap: 50px;
+}
+.header {
+  background-color: var(--primary-color);
+  padding: 30px 50px;
+  border-radius: 30px;
+  color: white;
+}
+.sm-icons {
+  font-size: 24px;
+  transition: all 200ms ease-in-out;
+}
+.user-profile {
+  text-align: end;
+}
